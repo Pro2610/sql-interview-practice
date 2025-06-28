@@ -1,14 +1,15 @@
 # 🎯 SQL Interview Practice
 
-This repository contains **typical SQL interview tasks**, each in a standalone `.sql` file with:
+This repository contains **typical SQL interview tasks**, organized by level and topic.
 
-✅ A clear problem statement  
-✅ SQL solution with comments  
-✅ Realistic tables and business logic  
+Each file includes:
+- ✅ A realistic business task
+- 💻 A SQL solution with comments
+- 📂 One file per problem: easy to navigate and test
 
 ---
 
-## 📚 Tasks Overview
+## 🧠 Beginner Tasks
 
 | #  | Task Description                          | Topics Covered                    | File                                 |
 |----|-------------------------------------------|-----------------------------------|--------------------------------------|
@@ -22,39 +23,31 @@ This repository contains **typical SQL interview tasks**, each in a standalone `
 | 8  | User revenue growth by month              | `LAG()`, `% change`              | [08_lag_growth.sql](./08_lag_growth.sql) |
 | 9  | Top 2 products per category               | `RANK()`, `PARTITION BY`         | [09_rank_top_n_category.sql](./09_rank_top_n_category.sql) |
 | 10 | Merge EU and US user lists                | `UNION`, deduplication           | [10_union_datasets.sql](./10_union_datasets.sql) |
+| 11 | Classify order size                       | `CASE WHEN`                      | [11_case_with_order_status.sql](./11_case_with_order_status.sql) |
+| 12 | Unique users per month                    | `COUNT(DISTINCT)`, `GROUP BY`    | [12_distinct_users_per_month.sql](./12_distinct_users_per_month.sql) |
+| 13 | Subquery in SELECT                        | `SELECT`, scalar subquery        | [13_subquery_in_select.sql](./13_subquery_in_select.sql) |
+| 14 | Top 5 spenders                            | `ORDER BY`, `LIMIT`, `SUM()`     | [14_top_spenders_total.sql](./14_top_spenders_total.sql) |
+| 15 | Count NULL values                         | `FILTER`, `COUNT()`              | [15_count_null_values.sql](./15_count_null_values.sql) |
 
 ---
 
-## 💡 Why This Repo?
+## 🔁 Intermediate Tasks
 
-These tasks simulate **real interview challenges** that test your:
-- SQL logic & thinking
-- Data manipulation
-- Aggregation and filtering
-- Window functions
-- Data cleaning & merging
-
-Perfect for:
-- Daily practice
-- Technical prep for data analyst roles
-- Refreshing SQL before interviews
+| #  | Task Description                              | Topics Covered                        | File                                   |
+|----|-----------------------------------------------|---------------------------------------|----------------------------------------|
+| 16 | Users with total spend above average          | `CTE`, `JOIN`, `AVG()`                | [16_users_above_avg_spend.sql](./16_users_above_avg_spend.sql) |
+| 17 | Users with multiple purchases same day        | `GROUP BY`, `HAVING`                  | [17_users_multiple_purchases_same_day.sql](./17_users_multiple_purchases_same_day.sql) |
+| 18 | Products sold every month in 2024             | `WITH`, `COUNT(DISTINCT)`, logic      | [18_products_every_month.sql](./18_products_every_month.sql) |
+| 19 | Users active in consecutive months            | `LAG()`, `DATE_DIFF`, `PARTITION BY`  | [19_power_users_consecutive_months.sql](./19_power_users_consecutive_months.sql) |
+| 20 | Orders not shipped                            | `LEFT JOIN`, `NULL` handling          | [20_orders_not_shipped.sql](./20_orders_not_shipped.sql) |
 
 ---
 
-## 🚀 How to Use
+## 🔜 Next Steps
 
-1. Open any `.sql` file
-2. Read the task description in comments
-3. Try solving it before looking at the solution
-4. Optionally: test in PostgreSQL / BigQuery / SQLite
-
----
-
-## 🛠️ Coming Soon
-
-- [ ] More tasks (CTEs, nested subqueries, analytical puzzles)
-- [ ] Difficulty levels
-- [ ] Solutions with BigQuery & PostgreSQL differences
+- [ ] Add Advanced tasks (A/B testing, funnel conversion, performance tuning)
+- [ ] Add PostgreSQL + BigQuery comparison notes
+- [ ] Build interactive challenge page (coming soon)
 
 ---
 
