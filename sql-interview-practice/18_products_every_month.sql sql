@@ -1,0 +1,30 @@
+-- 🧠 Task 18: Products sold in every month
+
+-- Return products that were sold at least once in *every month* of 2024.
+
+-- Table: sales(product_id, sale_date)
+
+WITH months_in_2024 AS (
+  SELECT DISTINCT DATE_TRUNC('month', sale_date) AS month
+  FROM sales
+  WHERE EXTRACT(YEAR FROM sale_date) = 2024
+),
+product_months AS (
+  SELECT product_id,
+         DATE_TRUNC('month', sale_date) AS month
+  FROM sales
+  WHERE EXTRACT(YEAR FROM sale_date) = 2024
+  GROUP BY product_id, month
+),
+monthly_counts AS (
+  SELECT product_id,
+         COUNT(DISTINCT month) AS months_sold
+  FROM product_months
+  GROUP BY product_id
+),
+month_total AS (
+  SELECT COUNT(*) AS total_months FROM months_in_2024
+)
+SELECT p.product_id
+FROM monthly_counts p
+JOIN month_total m ON p.months_sold = m.total_months;
