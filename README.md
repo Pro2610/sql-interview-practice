@@ -51,4 +51,15 @@ Each file includes:
 
 ---
 
+## 🧪 Advanced Tasks
+
+| #  | Task Description                             | Topics Covered                           | File                                      |
+|----|-----------------------------------------------|-------------------------------------------|-------------------------------------------|
+| 21 | Funnel conversion analysis                    | `CTE`, `JOIN`, step conversion            | [21_funnel_analysis.sql](./advanced/21_funnel_analysis.sql) |
+| 22 | A/B test conversion rates                     | `GROUP BY`, `CASE`, metrics calculation   | [22_ab_test_conversion.sql](./advanced/22_ab_test_conversion.sql) |
+| 23 | Monthly revenue retention by cohort           | `JOIN`, `DATE_DIFF`, cohort logic         | [23_monthly_revenue_retention.sql](./advanced/23_monthly_revenue_retention.sql) |
+| 24 | Detect churned users with inactivity gap      | `LAG()`, `DATE_DIFF`, behavior detection  | [24_user_churn_detection.sql](./advanced/24_user_churn_detection.sql) |
+| 25 | LTV by acquisition channel                    | `JOIN`, `COALESCE`, `AVG`, `SUM`          | [25_ltv_by_channel.sql](./advanced/25_ltv_by_channel.sql) |
+
+
 Made with ☕ and `SELECT *` 💙
