@@ -41,13 +41,6 @@ Each file includes:
 | 19 | Users active in consecutive months            | `LAG()`, `DATE_DIFF`, `PARTITION BY`  | [19_power_users_consecutive_months.sql](./19_power_users_consecutive_months.sql) |
 | 20 | Orders not shipped                            | `LEFT JOIN`, `NULL` handling          | [20_orders_not_shipped.sql](./20_orders_not_shipped.sql) |
 
----
-
-## 🔜 Next Steps
-
-- [ ] Add Advanced tasks (A/B testing, funnel conversion, performance tuning)
-- [ ] Add PostgreSQL + BigQuery comparison notes
-- [ ] Build interactive challenge page (coming soon)
 
 ---
 
