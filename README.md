@@ -62,4 +62,16 @@ Each file includes:
 | 25 | LTV by acquisition channel                    | `JOIN`, `COALESCE`, `AVG`, `SUM`          | [25_ltv_by_channel.sql](./advanced/25_ltv_by_channel.sql) |
 
 
+## 📈 Product & Growth Analytics
+
+| #  | Task Description                                 | Topics Covered                        | File                                                    |
+|----|--------------------------------------------------|----------------------------------------|---------------------------------------------------------|
+| 26 | Retention Curve by Signup Cohort                | `COHORT`, `WEEK`, `DATE_DIFF`         | [26_retention_curve_by_cohort.sql](./product_analytics/26_retention_curve_by_cohort.sql) |
+| 27 | Product Stickiness (DAU / MAU)                   | `COUNT(DISTINCT)`, `DATE_TRUNC`       | [27_product_stickiness_dau_mau.sql](./product_analytics/27_product_stickiness_dau_mau.sql) |
+| 28 | Feature Adoption Rate                            | `CROSS JOIN`, `GROUP BY`, % calculation | [28_feature_adoption_rate.sql](./product_analytics/28_feature_adoption_rate.sql) |
+| 29 | Activation Rate (signup to first action)         | `MIN()`, `DATEDIFF`, conditional logic | [29_activation_rate.sql](./product_analytics/29_activation_rate.sql) |
+| 30 | Power Users: 5 sessions in 7 days                | `WINDOW`, `FILTER`, `RANGE`           | [30_power_users.sql](./product_analytics/30_power_users.sql) |
+
+
+
 Made with ☕ and `SELECT *` 💙
