@@ -66,5 +66,11 @@ Each file includes:
 | 30 | Power Users: 5 sessions in 7 days                | `WINDOW`, `FILTER`, `RANGE`           | [30_power_users.sql](./product_analytics/30_power_users.sql) |
 
 
+## 📣 Marketing & Attribution Analytics
+
+| #  | Task Description                            | Topics Covered                            | File                                                                 |
+|----|---------------------------------------------|--------------------------------------------|----------------------------------------------------------------------|
+| 31 | ROI by Campaign                             | `JOIN`, `GROUP BY`, ROI formula            | [31_roi_by_campaign.sql](./marketing_attribution/31_roi_by_campaign.sql) |
+| 32 | First-Touch vs. Last-Touch Attribution      | `JOIN`, `MIN/MAX`, touchpoint logic        | [32_first_last_touch_attribution.sql](./marketing_attribution/32_first_last_touch_attribution.sql) |
 
 Made with ☕ and `SELECT *` 💙
