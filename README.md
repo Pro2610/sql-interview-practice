@@ -68,9 +68,14 @@ Each file includes:
 
 ## 📣 Marketing & Attribution Analytics
 
-| #  | Task Description                            | Topics Covered                            | File                                                                 |
-|----|---------------------------------------------|--------------------------------------------|----------------------------------------------------------------------|
-| 31 | ROI by Campaign                             | `JOIN`, `GROUP BY`, ROI formula            | [31_roi_by_campaign.sql](./marketing_attribution/31_roi_by_campaign.sql) |
-| 32 | First-Touch vs. Last-Touch Attribution      | `JOIN`, `MIN/MAX`, touchpoint logic        | [32_first_last_touch_attribution.sql](./marketing_attribution/32_first_last_touch_attribution.sql) |
+| #  | Task Description                            | Topics Covered                             | File                                                                 |
+|----|---------------------------------------------|---------------------------------------------|----------------------------------------------------------------------|
+| 31 | ROI by Campaign                             | `JOIN`, `GROUP BY`, ROI formula             | [31_roi_by_campaign.sql](./marketing_attribution/31_roi_by_campaign.sql) |
+| 32 | First-Touch vs. Last-Touch Attribution      | `JOIN`, `MIN/MAX`, touchpoint logic         | [32_first_last_touch_attribution.sql](./marketing_attribution/32_first_last_touch_attribution.sql) |
+| 33 | CAC by Acquisition Channel                  | `GROUP BY`, spend per new user              | [33_cac_by_channel.sql](./marketing_attribution/33_cac_by_channel.sql) |
+| 34 | Paid vs. Organic Retention                  | `JOIN`, `DATE_DIFF`, cohort retention       | [34_paid_vs_organic_retention.sql](./marketing_attribution/34_paid_vs_organic_retention.sql) |
+| 35 | Multi-Touch Attribution (U-Shape Model)     | `ROW_NUMBER()`, weighted conversion credit  | [35_multi_touch_u_shape.sql](./marketing_attribution/35_multi_touch_u_shape.sql) |
+
+
 
 Made with ☕ and `SELECT *` 💙
