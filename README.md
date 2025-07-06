@@ -77,5 +77,15 @@ Each file includes:
 | 35 | Multi-Touch Attribution (U-Shape Model)     | `ROW_NUMBER()`, weighted conversion credit  | [35_multi_touch_u_shape.sql](./marketing_attribution/35_multi_touch_u_shape.sql) |
 
 
+## 💼 Ad Hoc Business Requests
+
+| #  | Task Description                            | Topics Covered                                | File                                                                |
+|----|---------------------------------------------|------------------------------------------------|---------------------------------------------------------------------|
+| 36 | Revenue Drop Investigation                  | `WEEK`, `LAG()`, % change                      | [36_revenue_drop_investigation.sql](./ad_hoc_requests/36_revenue_drop_investigation.sql) |
+| 37 | Top Churned Users                           | `COUNT`, `MAX()`, inactivity check             | [37_top_churned_users.sql](./ad_hoc_requests/37_top_churned_users.sql) |
+| 38 | Anomaly in User Signups                     | `PERCENTILE_CONT`, outlier detection           | [38_anomaly_user_signups.sql](./ad_hoc_requests/38_anomaly_user_signups.sql) |
+| 39 | Compare Revenue Year over Year (YoY)        | `DATE_TRUNC`, `CASE`, `PIVOT`, YoY logic       | [39_compare_periods_yoy.sql](./ad_hoc_requests/39_compare_periods_yoy.sql) |
+| 40 | Invalid Email Format Check                  | `REGEXP_CONTAINS`, email validation            | [40_invalid_email_check.sql](./ad_hoc_requests/40_invalid_email_check.sql) |
+
 
 Made with ☕ and `SELECT *` 💙
