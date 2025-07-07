@@ -29,3 +29,13 @@ SELECT cohort_week,
 FROM joined
 GROUP BY cohort_week, week_number
 ORDER BY cohort_week, week_number;
+
+
+### 📊 Visualization — Retention Curve by Cohort
+  
+
+🔗 Related to: [26_retention_curve_by_cohort.sql]
+
+🖼 Example:
+
+![Retention Heatmap](https://public.tableau.com/app/profile/yana.prozhuhan/viz/RetentionCurveAnalysisCohortHeatmap/Dashboard1)
