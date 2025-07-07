@@ -24,3 +24,12 @@ SELECT *,
        ROUND((this_year - last_year) * 100.0 / NULLIF(last_year, 0), 2) AS yoy_change_pct
 FROM pivoted
 ORDER BY month;
+
+
+### 📊 Retention Curve Analysis
+
+[![Retention Curve](https://public.tableau.com/app/profile/yana.prozhuhan/viz/MonthlyRevenueYoYComparison_/Dashboard1)
+
+🎯 Goal: Analyze user retention by cohort  
+📈 Method: Cohort heatmap  
+🔍 Insight: Most cohorts drop by 50% by Day 2
