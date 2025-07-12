@@ -88,4 +88,31 @@ Each file includes:
 | 40 | Invalid Email Format Check                  | `REGEXP_CONTAINS`, email validation            | [40_invalid_email_check.sql](./ad_hoc_requests/40_invalid_email_check.sql) |
 
 
+
+📈 Marketing & Attribution Analytics
+This folder contains SQL tasks focused on measuring ad campaign performance and user conversion attribution.
+
+🎯 Topics: ROAS, CPC, CTR, First/Last Touch Attribution, Revenue Breakdown, Multi-Touch Funnels
+
+✅ Completed Cases:
+#	Title	Description
+01	ROAS by Campaign	Calculate return on ad spend (ROAS) per campaign
+02	CPC & CTR by Campaign	Analyze cost-per-click and click-through rate
+03	First vs. Last Touch	Compare first-touch vs last-touch attribution for conversions
+04	Campaign Contribution to Revenue	Measure how much revenue each campaign generated
+05	Multi-Touch Funnel Breakdown	Count how many campaigns users interacted with before converting
+
+💡 Key Insights:
+High CTR doesn’t always mean high revenue
+
+ROAS reveals real campaign efficiency
+
+Attribution model (first-touch vs last-touch) can impact budget decisions
+
+Many users interact with 2+ campaigns before converting
+
+📁 Data: Synthetic tables like ad_stats, user_sessions, conversions
+🧪 Goal: Practice real-world SQL patterns used in growth, marketing & attribution analysis
+
+
 Made with ☕ and `SELECT *` 💙
