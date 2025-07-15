@@ -1,0 +1,23 @@
+## ⌛ Time to Convert — Explanation
+
+Calculates how long it takes users to convert from their first session.
+
+---
+
+### Why it matters:
+- Shows typical user decision time
+- Identifies quick vs slow converters
+- Helps with funnel optimization & retargeting windows
+
+---
+
+### Query Logic:
+1. Find the earliest session per user → `first_sessions`
+2. Join with conversions → compute `days_to_convert`
+3. Optionally aggregate: `AVG()`, `PERCENTILE_CONT()`, `CASE`-based buckets
+
+---
+
+### Business Insight:
+- Short conversion times suggest urgency or high-intent
+- Long times may require nurturing or follow-ups
